@@ -1,10 +1,10 @@
-	<! doctype html>
+	<!doctype html>
 	<html>
 		<head>
 			<script src="js/jquery-2.1.4.js"></script>
 			<script src="js/jquery.easing.1.3.js"></script>
 			<script src="js/jquery.scrollify.js"></script>
-			<script src="js/Vide-0.3.5/dist/jquery.vide.min.js"></script>
+			<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 			<link rel="stylesheet" href="main.css"> 
 			<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400' rel='stylesheet' type='text/css'>
 			<script>
@@ -56,40 +56,51 @@
 			</section>
 
 			<section id="championshipPage">
-				<header>
-					<h1>Standing</h1>
-				</header>
-				<ul>
-					<li id="aTeamButton">1. The A-Team</li>
-					<li id="theBestTeamButton">2. The Best Team</li>
-					<li id="teamOneButton">3. Team #1</li>
-				</ul>
-				<div id="teamInfo">
-					<div id="aTeamInfo">
-						<img class="prof-pic1" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/p160x160/10399424_10152802306008030_5858722481474538411_n.jpg?oh=172f3fbc3fb0576c09baeb2365b2f386&oe=562BB155&__gda__=1445735013_06a26f55fd30c243c8646d5d8c4fd641"></img>
-						<img class="prof-pic2" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/p160x160/10675526_10152386180596094_8171942872255563761_n.jpg?oh=b4dbd4b9992582852337bae2a0ade355&oe=561CAA5C&__gda__=1445134628_6155fb052beeb00873f4e236c63a62d4">
-						<h2>The A-Team</h2>
-						<p class="player-text-1">Dan "The Man" Carino</p>
-						<p class="player-text-2">Mikaela "The Aunt" Illanes</p>
-					</div>
+				<div class="container">
+					<header>
+						<h1>Standing</h1>
+					</header>
+					<div class="row">
+						<div class="col-md-6">
+							<ul>
+								<li id="aTeamButton">1. The A-Team</li>
+								<li id="theBestTeamButton">2. The Best Team</li>
+								<li id="teamOneButton">3. Team #1</li>
+							</ul>
+						</div>
+						<div id="teamInfo" class="col-md-6">
+							<div id="aTeamInfo" class="row" >
+								<div class="col-md-3">
+									<img class="prof-pic1" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/p160x160/10399424_10152802306008030_5858722481474538411_n.jpg?oh=172f3fbc3fb0576c09baeb2365b2f386&oe=562BB155&__gda__=1445735013_06a26f55fd30c243c8646d5d8c4fd641"></img>
+									<img class="prof-pic2" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/p160x160/10675526_10152386180596094_8171942872255563761_n.jpg?oh=b4dbd4b9992582852337bae2a0ade355&oe=561CAA5C&__gda__=1445134628_6155fb052beeb00873f4e236c63a62d4">
+								</div>
+								
+								<div class="col-md-9">
+									<h2>The A-Team</h2>
+									<p class="player-text-1">Dan "The Man" Carino</p>
+									<p class="player-text-2">Mikaela "The Aunt" Illanes</p>
+								</div>
+							</div>
 
-					<div id="bestTeamInfo">
-						<img class="prof-pic1" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/v/t1.0-1/c42.42.527.527/s160x160/480344_10201221406567937_1158506896_n.jpg?oh=a86335da4f66fc84f3f1552d13d80c1a&oe=561263C8&__gda__=1445469102_60c1b2410cb1c218c8ccf263cca6d04b"></img>
-						<img class="prof-pic2" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/p160x160/11412378_10152836935926583_9033203925318230484_n.jpg?oh=d392460b89720eebf032eefedf66a3ce&oe=5612BFAC&__gda__=1444872762_4da11862a53788c9c676d824e9b46571"></img>
-						<h2>The Best Team</h2>
-							<p class="player-text-1">Milad "MTTR" Taba </p>
-						<p class="player-text-2">Lovisa "Spring Home" Runhem</p>
-					</div>
+							<div id="bestTeamInfo">
+								<img class="prof-pic1" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/v/t1.0-1/c42.42.527.527/s160x160/480344_10201221406567937_1158506896_n.jpg?oh=a86335da4f66fc84f3f1552d13d80c1a&oe=561263C8&__gda__=1445469102_60c1b2410cb1c218c8ccf263cca6d04b"></img>
+								<img class="prof-pic2" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/p160x160/11412378_10152836935926583_9033203925318230484_n.jpg?oh=d392460b89720eebf032eefedf66a3ce&oe=5612BFAC&__gda__=1444872762_4da11862a53788c9c676d824e9b46571"></img>
+								<h2>The Best Team</h2>
+									<p class="player-text-1">Milad "MTTR" Taba </p>
+								<p class="player-text-2">Lovisa "Spring Home" Runhem</p>
+							</div>
 
-					<div id="team1Info">
-						<img class="prof-pic1" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c0.46.160.160/p160x160/10254022_10152895501457697_1839506376613087565_n.jpg?oh=960b1513e98969922012f0e6e1df1834&oe=560FB725&__gda__=1444433486_644827dded231df37bd6c96abb2bb58f"></img>
-						
-						<img class="prof-pic2" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c39.39.491.491/s160x160/1000478_10201543682538725_1982358229_n.jpg?oh=328437b743459f9c9205114e38ab740a&oe=562C6361&__gda__=1444959194_0a4c39033b5ee4469436845a46a026be">
-						<h2>Team #1</h2>
-							<p class="player-text-1">Thomai "The Greek Godess" Stathopoulou </p>
-						<p class="player-text-2">Joachim "The Knee" Petterson</p>
-					</div>
-				</div>
+							<div id="team1Info">
+								<img class="prof-pic1" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c0.46.160.160/p160x160/10254022_10152895501457697_1839506376613087565_n.jpg?oh=960b1513e98969922012f0e6e1df1834&oe=560FB725&__gda__=1444433486_644827dded231df37bd6c96abb2bb58f"></img>
+								
+								<img class="prof-pic2" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c39.39.491.491/s160x160/1000478_10201543682538725_1982358229_n.jpg?oh=328437b743459f9c9205114e38ab740a&oe=562C6361&__gda__=1444959194_0a4c39033b5ee4469436845a46a026be">
+								<h2>Team #1</h2>
+									<p class="player-text-1">Thomai "The Greek Godess" Stathopoulou </p>
+								<p class="player-text-2">Joachim "The Shin" Petterson</p>
+							</div>
+						</div>
+					</div> <!--End row-->
+				</div> <!--End container-->
 			</section>
 
 			<section id="latestMatchesPage">
