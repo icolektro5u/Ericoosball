@@ -76,11 +76,10 @@ li{
 	display: none;
 	background-color: black; 
 	position: relative;
-	left: 50vw;
-	top: -10vh;
+	/*left: 50vw;*/
+	top: 10vh;
 	border: 2px solid white;
-	height: 50vh;
-	width: 40vw;
+	height: 60vh;
 }
 
 .player-text-1{
