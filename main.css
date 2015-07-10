@@ -1,0 +1,113 @@
+body{
+	color: white;
+	margin: 0;
+	text-align: center;
+	background-color: black;
+	font-family: "Open Sans";
+
+}
+
+body h1{
+	position: relative;
+	top: 10vh;
+	font-size: 4em;
+	
+}
+
+body p{
+	position: relative;
+	top: 10vh;
+	font-size: 2em;
+	margin: 0;
+}
+
+#firstPage img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+
+#firstPage h1{
+	position: relative;
+	left: 7vw;
+	text-align: left;
+	margin: 0;
+	top: 70vh;
+	font-size: 4em;
+	z-index: 1;
+
+}
+
+#underBox{
+	position: relative;
+	background-color: black;
+	opacity: 0.4;
+	height: 25vh;
+	width: 50vw;
+	left: -20vw;
+	top: 50vh;
+	display: inline-block;
+}
+
+section {
+	
+	height: 100vh;	
+
+}
+
+
+#championshipPage ul{
+	position: relative;
+	top: 10vh;
+	left: 5vw;
+	text-align: left;
+	font-size: 2em;
+}
+#championshipPage li{
+	padding: 1vh;
+}
+
+#aTeamInfo{
+	background-color: red;
+	position: relative;
+	left: 50vw;
+	top: -10vh;
+
+	height: 50vh;
+	width: 40vw;
+}
+
+#teamInfo{
+	position: relative;
+}
+
+#teamInfo h2{
+	display: inline;
+}
+
+#teamInfo img{
+	position: absolute;
+	left: 0vw;
+	height: calc(50vh*0.8);
+
+}
+
+
+#latestMatchesPage{
+
+}
+
+#signUpPage{
+
+}
+
+#aboutUsPage{
+
+}
+
+#contactPage{
+
+}
