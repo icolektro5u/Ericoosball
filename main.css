@@ -58,6 +58,8 @@ section {
 
 }
 
+li{
+	cursor:pointer;}
 
 #championshipPage ul{
 	position: relative;
@@ -70,14 +72,38 @@ section {
 	padding: 1vh;
 }
 
-#aTeamInfo{
-	background-color: red;
+#aTeamInfo, #bestTeamInfo, #team1Info{
+	display: none;
+	background-color: black; 
 	position: relative;
 	left: 50vw;
 	top: -10vh;
-
+	border: 2px solid white;
 	height: 50vh;
 	width: 40vw;
+}
+
+.player-text-1{
+	left: 13vw;
+	font-size: 1em;
+	top: 3vh;
+	text-align: left;
+	right: 1vw;
+}
+
+.player-text-2{
+	left: 13vw;
+	font-size: 1em;
+	top: 22vh;
+	text-align: left;
+}
+
+#bestTeamInfo{
+		display: none;
+}
+
+#team1Info{
+		display: none;
 }
 
 #teamInfo{
@@ -88,11 +114,18 @@ section {
 	display: inline;
 }
 
-#teamInfo img{
+#teamInfo .prof-pic1{
 	position: absolute;
-	left: 0vw;
-	height: calc(50vh*0.8);
+	left: 2vw;
+	top: 6vh;
+	/*height: calc(50vh*0.8);*/
 
+}
+
+#teamInfo .prof-pic2{
+	position: absolute;
+	left: 2vw;
+	top: 27vh;
 }
 
 
