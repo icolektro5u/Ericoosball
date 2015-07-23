@@ -9,7 +9,7 @@ body{
 
 body h1{
 	position: relative;
-	top: 10vh;
+	top: 5vh;
 	font-size: 4em;
 	
 }
@@ -28,6 +28,13 @@ body > p{
 	z-index: -1;
 	width: 100%;
 	height: 100%;
+}
+
+#championshipPage > img{
+	z-index: -1;
+	position: relative;
+	background-position: ;
+	transform: rotate(90deg);
 }
 
 #firstPage h1{
@@ -78,10 +85,10 @@ li{
 	position: relative;
 	/*left: 50vw;*/
 	top: 10vh;
-	border: 2px solid white;
-	padding: 2vh 5vh 8vh;
-	width: 45vw;
-	/*height: 60vh;*/
+	border: 0.2em solid white;
+	padding: 1em 2em 1em;
+	width: 45em;
+	height: 33em;
 }
 
 .player-text-1{
@@ -99,13 +106,6 @@ li{
 	text-align: left;
 }
 
-#bestTeamInfo{
-		display: none;
-}
-
-#team1Info{
-		display: none;
-}
 
 #teamInfo{
 	position: relative;
@@ -116,37 +116,27 @@ li{
 	display: inline;
 }
 
+#teamInfo p{
+	font-size: 0.85em;
+}
 #teamInfo .prof-pic{
 	position: relative;
-	top: 3vh;
+
 	/*margin-top:2vh;*/
 	/*margin-bottom: 1vh; */
-	max-height: 100%;
+	/*height: 20vh;*/
+	height: 13em;
 	/*height: calc(50vh*0.8);*/
 
 }
 
-
+#teamInfo .col-md-5{
+	width: inherit;
+}
 #teamInfo > div .row{
-	margin-top: 5vh;
+	margin-top: 1em;
 }
 
 #teamInfo > div > h2{
 	text-align: center;
-}
-
-#latestMatchesPage{
-
-}
-
-#signUpPage{
-
-}
-
-#aboutUsPage{
-
-}
-
-#contactPage{
-
 }
